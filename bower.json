@@ -1,0 +1,21 @@
+{
+  "name": "lovely",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "yz"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "js/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.11.3"
+  }
+}
