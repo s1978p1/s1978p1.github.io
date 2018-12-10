@@ -3,14 +3,30 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="yz" content="myloveiloveyou">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="love.png"/>
+	<link rel="stylesheet" href="css/nomalize.css">
 	<link rel="stylesheet" type="text/css" href="css/lovely.css"/>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 	<title>ForMyLove</title>
 </head>
 <body>
-	<canvas id="c" style="position: absolute;z-index: -1;text-align: center;"></canvas> 
+	<!-- 爱心 -->
+	<canvas id="c"></canvas> 
 
-	<div id="main"><h1>媳妇，爱你！</h1></div>
+	<!-- 主体 -->
+	<div id="main">
+		<div class="site">
+			<div class="site_content">
+				<button type="button" @click="textMove" id="btn"> 点这里 </button>
+				<div class="demo" id="demo">
+					
+					<h1>{{msg}}</h1>
+				</div>
+				
+			</div>
+		</div>
+	</div>
 	
 	
 	

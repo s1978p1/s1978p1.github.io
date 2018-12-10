@@ -1,6 +1,1 @@
-#main {
-  position: absolute;
-  top: 40%;
-  left: 46%;
-  cursor: pointer;
-}
+#main{width:100%;height:100%;position:absolute;top:0;left:0}#c{position:absolute;z-index:-1}.site,.site_content{width:100%;height:100%}.demo{height:100%;display:flex;cursor:pointer;align-items:center;justify-content:center}#btn{position:absolute;top:55%;left:46%;cursor:pointer;width:150px;height:45px;border-radius:3px;background-color:#9ab;color:#333;font:bold 18px "微软雅黑"}
