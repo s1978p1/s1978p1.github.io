@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="yz" content="myloveiloveyou">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" href="love.png"/>
+	<link rel="shortcut icon" href="love.ico"/>
 	<link rel="stylesheet" href="css/nomalize.css">
 	<link rel="stylesheet" type="text/css" href="css/lovely.css"/>
 	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -18,12 +18,9 @@
 	<div id="main">
 		<div class="site">
 			<div class="site_content">
-				<button type="button" @click="textMove" id="btn"> 点这里 </button>
 				<div class="demo" id="demo">
-					
-					<h1>{{msg}}</h1>
+					<h1 v-on:click="textMove">{{msg}}</h1>
 				</div>
-				
 			</div>
 		</div>
 	</div>
