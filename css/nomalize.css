@@ -31,7 +31,6 @@ select, input {
 }
 
 select, input, textarea {
-    font-size: 12px;
     margin: 0;
 }
 
@@ -48,8 +47,7 @@ img {
 /*  去掉图片低测默认的3像素空白缝隙*/
 
 body {
-    font: 12px/150% "microsoft yahei", Verdana, "\5b8b\4f53";	/*yahei，Unicode，统一码*/
-
+   font-family: "microsoft yahei";
     background: #fff
 }
 
