@@ -1,0 +1,13 @@
+/*主体部分*/
+/*大屏*/
+@media screen and (min-width : 750px){
+	.main{height: 85vh;}
+}
+/*大屏结束*/
+
+/*小屏*/
+@media screen and (max-width : 750px){
+	.main{height: 85vh;}
+}
+/*小屏结束*/ 
+/*主体部分结束*/
