@@ -111,3 +111,4 @@ s, i, em {
 .hide {
     display: none
 }
+[v-cloak]{display: none;}

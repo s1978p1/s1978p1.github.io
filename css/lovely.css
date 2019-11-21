@@ -1,1 +1,77 @@
-@media screen and (min-width:750px){#main{width:100%;height:100%;position:absolute;top:0;left:0;right:0}#c{position:absolute;z-index:-1}.site,.site_content{width:100%;height:100%}.demo{height:100%;display:flex;cursor:pointer;align-items:center;justify-content:center}.demo h1{text-align:center;font-size:24px}[v-cloak]{display:none}}@media screen and (max-width:750px){#main{width:100%;height:100%;position:absolute;top:0;left:0;right:0}#c{position:absolute;z-index:-1}.site,.site_content{width:100%;height:100%}.demo{height:100%;display:flex;cursor:pointer;align-items:center;justify-content:center}.demo h1{text-align:center;font-size:.125rem}[v-cloak]{display:none}}
+/*屏幕方案*/
+
+/*大屏*/
+@media screen and (min-width: 750px) {
+  /*主体部分*/
+  #main {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  #c {
+    position: absolute;
+    z-index: -1;
+  }
+  .site,
+  .site_content {
+    width: 100%;
+    height: 100%;
+  }
+  .demo {
+    height: 100%;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+  }
+  .demo a {
+    color: #000;
+  }
+  .demo h1 {
+    text-align: center;
+    font-size: 24px;
+  }
+  /*主体部分结束*/
+}
+/*大屏结束*/
+
+/*小屏*/
+@media screen and (max-width: 750px) {
+  /*主体部分*/
+  #main {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  #c {
+    position: absolute;
+    z-index: -1;
+  }
+  .site,
+  .site_content {
+    width: 100%;
+    height: 100%;
+  }
+  .demo {
+    height: 100%;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+  }
+  .demo a {
+    color: #000;
+  }
+  .demo h1 {
+    text-align: center;
+    font-size: 0.125rem;
+  }
+  /*主体部分结束*/
+}
+/*小屏结束*/

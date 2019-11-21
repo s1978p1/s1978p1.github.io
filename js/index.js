@@ -190,3 +190,15 @@
 
 }
 )(window, window['lib'] || (window['lib'] = {}));
+
+
+
+
+function getEle(){
+        let S = document.getElementById("app").querySelectorAll("*"), res = [];
+        S.forEach(e =>{
+            e.dataset.path ? res.push(e) : null
+        });
+        return res
+    }
+
