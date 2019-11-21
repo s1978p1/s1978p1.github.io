@@ -18,7 +18,7 @@
 	    line-height: 20px;
 	    height: 20px;
 	}
-	.foot_filing i {
+	.foot_filing i.foot_filing_ico {
 	    display: inline-block;
 	    width: 18px;
 	    height: 100%;
@@ -44,7 +44,7 @@
 	    color: #999;
 	    line-height: 0.27rem;
 	}
-	.foot_filing i {
+	.foot_filing i.foot_filing_ico {
 	    display: inline-block;
 	    width: 0.24rem;
 	    height: 100%;

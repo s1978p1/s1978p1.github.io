@@ -1,8 +1,16 @@
 /*公共头部样式*/
-/*public_head*/
+/*大屏*/
+@media screen and (min-width : 750px){
+	.public_head{width: 100%;height: 10vh;}
+	.main{height: 85vh;}
+}
+/*大屏结束*/
 
-
-
+/*小屏*/
+@media screen and (max-width : 750px){
+	.public_head{width: 100%;height: 10vh;}
+	.main{height: 85vh;}
+}
+/*小屏结束*/ 
 
 /*公共头部样式结束*/
-/*public_head_end*/
