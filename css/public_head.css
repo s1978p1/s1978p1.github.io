@@ -1,15 +1,23 @@
 /*公共头部样式*/
 /*大屏*/
 @media screen and (min-width : 750px){
-	.public_head{width: 100%;height: 10vh;}
-	.main{height: 85vh;}
+	.public_head{width: 100%;}
+	/*logo*/
+	.public_head .logo img{width: 100%;height: 100%;}
+	/*logo结束*/
+	/*导航*/
+	.public_head .nav{width: 80%;margin-top: 40px;}
+	.public_head .nav ul{width: 100%;box-sizing: border-box;}
+	.public_head .nav ul li{text-align: center;padding: 10px 0px;margin: 0 20px;}
+	.public_head .nav ul li a{color: #000;font-size: 24px;}
+	.public_head li.active{border-bottom:3px solid #06c9fa;}
+	/*导航结束*/
 }
 /*大屏结束*/
 
 /*小屏*/
 @media screen and (max-width : 750px){
 	.public_head{width: 100%;height: 10vh;}
-	.main{height: 85vh;}
 }
 /*小屏结束*/ 
 
