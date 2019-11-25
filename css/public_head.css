@@ -1,23 +1,45 @@
 /*公共头部样式*/
 /*大屏*/
-@media screen and (min-width : 750px){
+@media screen and (min-width : 751px){
 	.public_head{width: 100%;}
 	/*logo*/
+	.public_head .logo{float: left;}
 	.public_head .logo img{width: 100%;height: 100%;}
 	/*logo结束*/
 	/*导航*/
-	.public_head .nav{width: 80%;margin-top: 40px;}
-	.public_head .nav ul{width: 100%;box-sizing: border-box;}
-	.public_head .nav ul li{text-align: center;padding: 10px 0px;margin: 0 20px;}
-	.public_head .nav ul li a{color: #000;font-size: 24px;}
+	.public_head h1{display: none;}
+	.public_head .nav{width: 80%;margin-top: 40px;float: right;}
+	.public_head .nav .hamburger{display: none;}
+	.public_head .nav_ul{width: 100%;box-sizing: border-box;}
+	.public_head .nav_ul .move_left{display: none;}
+	.public_head .nav_ul li{text-align: center;padding: 10px 0px;margin: 0 20px;float: left;}
+	.public_head .nav_ul li a{color: #000;font-size: 24px;}
 	.public_head li.active{border-bottom:3px solid #06c9fa;}
+	.public_head li:last-child{display: none;}
 	/*导航结束*/
 }
 /*大屏结束*/
 
 /*小屏*/
 @media screen and (max-width : 750px){
-	.public_head{width: 100%;height: 10vh;}
+	.public_head{width: 100%;position: relative;}
+	/*logo*/
+	.public_head .logo img{display: none;}
+	/*logo结束*/
+	/*导航*/
+	.public_head h1{text-align: center;font-size: 0.4rem;}
+	.public_head .nav{}
+	.public_head .nav .hamburger{display: block;width: 0.55rem;height: 0.55rem;background: url(../images/head/list.png) no-repeat;background-size:0.55rem 0.55rem;position: absolute;top: 0;left: 0.1rem;transition: 0.2s all;}
+	.public_head .nav_ul{width: 45%;background: #333;height: 100vh;position: fixed;top: 0;left: 0;border-radius:0 0 0.1rem 0;padding-top: 0.2rem;transition: 0.2s all;}
+	.public_head .nav_ul .move_left{display: block;width: 0.55rem;height: 0.55rem;background:#333;position: absolute;top: 0;right: -0.54rem;border-radius:0 0.1rem 0.1rem 0;}
+	.public_head .nav_ul .move_left img{width: 100%;height: 100%; }
+	.public_head .nav_ul li{padding: 0.12rem 0rem;margin: 0 0.2rem;border-bottom: 1px solid #ccc;}
+	.public_head .nav_ul li a{color: #fff;font-size: 0.32rem;}
+	.public_head li.active{text-align: center;}
+	.public_head li.active a{color: #06c9fa;}
+	.public_head li:last-child{text-align: center;border-bottom:0;}
+	.public_head li:last-child img{width: 3.5rem;height: 5.2rem;}
+	/*导航结束*/
 }
 /*小屏结束*/ 
 
