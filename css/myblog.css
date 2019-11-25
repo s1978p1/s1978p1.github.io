@@ -7,7 +7,7 @@
 
 /*小屏*/
 @media screen and (max-width : 750px){
-	.main{height: 1500px;margin-top: 1rem;text-align: center;font-size: 0.6rem;}
+	.main{margin-top: 1rem;text-align: center;font-size: 0.6rem;}
 }
 /*小屏结束*/ 
 /*主体部分结束*/
