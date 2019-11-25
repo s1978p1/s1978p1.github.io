@@ -1,13 +1,13 @@
 /*主体部分*/
 /*大屏*/
 @media screen and (min-width : 751px){
-	.main{height: 85vh;}
+	.main{height: 85vh;text-align: center;font-size: 40px;}
 }
 /*大屏结束*/
 
 /*小屏*/
 @media screen and (max-width : 750px){
-	.main{height: 85vh;}
+	.main{height: 1500px;margin-top: 1rem;text-align: center;font-size: 0.6rem;}
 }
 /*小屏结束*/ 
 /*主体部分结束*/

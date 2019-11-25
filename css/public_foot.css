@@ -16,8 +16,8 @@
 @media screen and (max-width : 750px){
 
 	/*备案区域样式*/
-	.foot_filing {width: 100%;height: 0.27rem;text-align: center;display: flex;justify-content: center;align-items: center;}
-	.foot_filing a,.foot_filing s{color: #999;line-height: 0.27rem;}
+	.foot_filing {width: 100%;text-align: center;display: flex;justify-content: center;align-items: center;display: none;margin-bottom: 0.3rem;}
+	.foot_filing a,.foot_filing s{color: #999;line-height: 0.3rem;}
 	.foot_filing i.foot_filing_ico {display: inline-block;width:0.30rem;height: 0.27rem;margin-right: 0.07rem;background:url(../images/foot/hz_icon.png) no-repeat -0.57rem 0;background-size: auto 0.27rem;}
 	/*备案区域样式结束*/
 
