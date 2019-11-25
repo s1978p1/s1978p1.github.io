@@ -10,12 +10,13 @@
 	.public_head h1{display: none;}
 	.public_head .nav{width: 75%;margin-top: 40px;float: right;}
 	.public_head .nav .hamburger{display: none;}
-	.public_head .nav_ul{width: 100%;box-sizing: border-box;}
+	.public_head .nav_ul{width: 100%;}
 	.public_head .nav_ul .move_left{display: none;}
-	.public_head .nav_ul li{text-align: center;padding: 10px 0px;margin: 0 20px;float: left;}
-	.public_head .nav_ul li a{color: #000;font-size: 24px;}
-	.public_head li.active{border-bottom:3px solid #06c9fa;}
-	.public_head li:last-child{display: none;}
+	.public_head .nav_ul li{height: 55px;text-align: center;padding: 0px 20px;float: left;}
+	.public_head .nav_ul li a{display: block;color: #000;font-size: 24px;line-height: 55px;}
+	.public_head .nav_ul li:hover a{color: #06c9fa;font-size: 24px;}
+	.public_head li.active a{color: #06c9fa;border-bottom:3px solid #06c9fa;}
+	/*.public_head li:last-child{display: none;}*/
 	/*导航结束*/
 }
 /*大屏结束*/
@@ -44,4 +45,4 @@
 }
 /*小屏结束*/ 
 
-/*公共头部样式结束*/
+/*公共头部样式结束

@@ -2,11 +2,27 @@ $().ready(function(){
 	// 导航栏底部线条
 	$(".nav_ul>li").each(function(){
 		$(this).click(function(){
+			$(".nav_ul>li").removeClass("reactive");
 			$(".nav_ul>li").removeClass("active");
 			$(this).addClass("active");	
+			$(this).addClass("reactive");
 		})
 	})
 	// 导航栏底部线条结束
+	
+	// 导航栏底部线条移动动画
+	$(".nav_ul>li").each(function(){
+		$(this).mouseenter(function(){
+			$(".nav_ul").find(".active").delay(1000).addClass("reactive");
+			$(".nav_ul>li").delay(1000).removeClass("active");
+			$(this).delay(1000).addClass("active");	
+		})
+		$(this).mouseleave(function(){
+			$(".nav_ul>li").delay(1000).removeClass("active");
+			$(".nav_ul").find(".reactive").delay(1000).addClass("active");
+		})
+	})
+	// 导航栏底部线条移动动画结束
 	
 	// 汉堡包点击事件
 	$(".hamburger").click(function(){
