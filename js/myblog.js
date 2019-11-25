@@ -3,7 +3,7 @@ $().ready(function(){
 	$(".nav_ul>li").each(function(){
 		$(this).click(function(){
 			$(".nav_ul>li").removeClass("active");
-			$(this).addClass("active");
+			$(this).addClass("active");	
 		})
 	})
 	// 导航栏底部线条结束
