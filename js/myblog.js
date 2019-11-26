@@ -18,7 +18,3 @@ var swiper = new Swiper('.swiper-container', {
 });
 //轮播图结束
 
-$().ready(function(){
-
-
-})
