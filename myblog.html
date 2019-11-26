@@ -13,8 +13,7 @@
 	<link rel="stylesheet" type="text/css" href="css/myblog.css"/>
 	<link rel="stylesheet" type="text/css" href="css/public_head.css"/>
 	<link rel="stylesheet" type="text/css" href="css/public_foot.css"/>
-	<script type="text/javascript" src="js/lib/jquery/dist/jquery.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<link rel="stylesheet" href="node_modules/swiper/css/swiper.min.css">
 	<title>个人主页</title>
 </head>
 <body>
@@ -37,7 +36,6 @@
 					<li class=""><a href="#">冷知识</a></li>
 					<li class=""><a href="#">新品开箱</a></li>
 					<li class=""><a href="#">游戏攻略</a></li>
-					<!-- <li><img src="images/head/lyf.jpg" alt=""></li> -->
 				</ul>
 			</div>
 			<!-- 导航栏，汉堡包结束 -->
@@ -48,10 +46,31 @@
 	<!-- 主体 -->
 	<div class="main">
 		<div class="w">
-			<div>正在施工中...</div>
-			<div>正在施工中...</div>
-			<div>正在施工中...</div>
-		</div>	
+			<!-- 轮播图 -->
+			<div class="swiper-container">
+				<!-- 图片 -->
+			    <div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="images/myblog/bg-1.png" alt=""></div>
+					<div class="swiper-slide"><img src="images/myblog/bg-2.png" alt=""></div>
+					<div class="swiper-slide"><img src="images/myblog/bg-3.png" alt=""></div>
+					<div class="swiper-slide"><img src="images/myblog/bg-4.png" alt=""></div>
+					<div class="swiper-slide"><img src="images/myblog/bg-5.png" alt=""></div>
+			    </div>
+				<!-- 图片 -->
+
+				<!-- Add Pagination -->
+				<div class="swiper-pagination"></div>
+				<!-- Add Pagination end -->
+
+				<!-- Add Arrows -->
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
+				<!-- Add Arrows end -->
+			</div>
+
+
+			<!-- 轮播图结束 -->	
+		</div>
 	</div>
 	<!-- 主体结束 -->
 	
@@ -67,12 +86,22 @@
 	</div>
 	<!-- 底部结束 -->
 
+	<!-- jq、vue、swiper框架 -->
+	<script type="text/javascript" src="js/lib/jquery/dist/jquery.min.js"></script>
 
+	<script type="text/javascript" src="node_modules/vue/dist/vue.min.js"></script>
+
+	<script type="text/javascript" src="node_modules/swiper/js/swiper.min.js"></script>
+	<!-- jq、vue、swiper框架结束 -->
 
 	<!-- 响应式字体大小 -->
 	<script type="text/javascript" src="js/index.js"></script>
 	<!-- 响应式字体大小结束 -->
 	
+	<!-- 头部、导航栏js -->
+	<script type="text/javascript" src="js/public_top.js"></script>
+	<!-- 头部、导航栏js结束 -->
+
 	<!-- 本页面其他部分js -->
 	<script type="text/javascript" src="js/myblog.js"></script>
 	<!-- 本页面其他部分js结束 -->

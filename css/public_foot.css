@@ -1,7 +1,7 @@
 /*公共底部样式*/
 
 /*大屏*/
-@media screen and (min-width : 751px){
+@media screen and (min-width : 1000px){
 
 	/*备案区域样式*/
 	.foot_filing {width: 100%;height: 20px;text-align: center;display: flex;justify-content: center;align-items: center;}
@@ -12,8 +12,18 @@
 }
 /*大屏结束*/
 
+/*中屏*/
+@media screen and (min-width : 768px) and (max-width : 999px) {
+	/*备案区域样式*/
+	.foot_filing {width: 100%;height: 20px;text-align: center;display: flex;justify-content: center;align-items: center;}
+	.foot_filing a,.foot_filing s {display: block;color: #999;line-height: 20px;height: 20px;}
+	.foot_filing i.foot_filing_ico {display: inline-block;width: 18px; height: 100%;margin-right: 5px;background:url(../images/foot/hz_icon.png) no-repeat -41px 0;}
+	/*备案区域样式结束*/
+}
+/*中屏结束*/
+
 /*小屏*/
-@media screen and (max-width : 750px){
+@media screen and (max-width : 767px){
 
 	/*备案区域样式*/
 	.foot_filing {width: 100%;text-align: center;display: flex;justify-content: center;align-items: center;display: none;margin-bottom: 0.3rem;}

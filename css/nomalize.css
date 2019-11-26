@@ -32,11 +32,14 @@ a {text-decoration: none;}
 s, i, em{font-style: normal;text-decoration: none;}
 
 /*公共类*/
-@media screen and (min-width : 751px){
-    .w {/*版心 提取 */width: 1000px;margin: 0 auto;}
+/*版心 提取 */
+@media screen and (min-width : 1000px){
+    .w {width: 1000px;margin: 0 auto;position: relative;}
 }
-@media screen and (max-width : 750px){
-    .w {/*版心 提取 */width: 100%;}
+@media screen and (max-width : 999px) and (min-width : 768px){.w{width: 100%;min-width: 790px;}
+}
+@media screen and (max-width : 767px){
+    .w {width: 100%;}
 }
 
 .fl {float: left}

@@ -1,5 +1,5 @@
 {
-  "name": "lovely",
+  "name": "myblog",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -9,6 +9,7 @@
   "author": "yz",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "swiper": "^5.2.1"
   }
 }
