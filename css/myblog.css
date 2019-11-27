@@ -27,7 +27,7 @@
 
 /*小屏*/
 @media screen and (max-width : 767px){
-	.main{height: 100vh;margin-top: 0.95rem;text-align: center;font-size: 0.6rem;}
+	.main{height: 1000px;text-align: center;font-size: 0.6rem;}
 	.swiper-button-next,.swiper-button-prev,.swiper-pagination{display: none !important;}
 	.swiper-wrapper .swiper-slide img{width: 100%;}
 }

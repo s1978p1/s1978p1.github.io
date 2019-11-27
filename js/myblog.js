@@ -5,6 +5,7 @@ var swiper = new Swiper('.swiper-container', {
 	loop: true,//轮播是否循环
 	autoplay: {
 		delay: 2000,//2秒切换一次
+		disableOnInteraction:false,
 	},
 	pagination: {//使用分页器导航
 		el: '.swiper-pagination',
