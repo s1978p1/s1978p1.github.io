@@ -1,7 +1,6 @@
 {
   "name": "myblog",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +10,15 @@
   "dependencies": {
     "express": "^4.16.4",
     "swiper": "^5.2.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s1978p1/s1978p1.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/s1978p1/s1978p1.github.io/issues"
+  },
+  "homepage": "https://github.com/s1978p1/s1978p1.github.io#readme",
+  "description": ""
 }
