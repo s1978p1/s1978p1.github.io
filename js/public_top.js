@@ -29,7 +29,7 @@ $().ready(function(){
         var t_Head = $(".public_head").find("h1").height();
         var y = $(window).scrollTop();
         if (y < t_Head) {
-        	$(".public_head").find("h1").css("position","relative");
+        	$(".public_head").find("h1").css("position","static");
         }else{
         	$(".public_head").find("h1").css("position","fixed");
         }
@@ -39,14 +39,21 @@ $().ready(function(){
 	// 汉堡包点击事件
 	$(".hamburger").click(function(){
 		$(".nav").animate({"left":"0"},300);
-		// $(".move_left").removeClass("hide");
+		$("body").animate({"left":"55%"},300);
+		$(".public_head").find("h1").animate({"left":"55%"},300);
 	})
 	// 汉堡包点击事件结束
 	
 	// 侧边栏左移
 	$(".main").click(function(){
 		$(".nav").animate({"left":"-55%"},300);
-		// $(".move_left").addClass("hide");
+		$("body").animate({"left":"0"},300);
+		$(".public_head").find("h1").animate({"left":"0"},300);
+	})
+	$(".swiper-container").click(function(){
+		$(".nav").animate({"left":"-55%"},300);
+		$("body").animate({"left":"0"},300);
+		$(".public_head").find("h1").animate({"left":"0"},300);
 	})
 	// 侧边栏左移结束
 })
