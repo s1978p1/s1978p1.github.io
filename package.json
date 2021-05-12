@@ -9,7 +9,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "swiper": "^5.2.1"
+    "swiper": "^6.5.1"
   },
   "devDependencies": {},
   "repository": {
